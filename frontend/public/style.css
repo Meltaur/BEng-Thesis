@@ -1,0 +1,410 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
+}
+
+
+#container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    border-bottom: 10px solid #bdff00;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ #przywitanie{
+    height: 100px;
+    width:79%;
+    font-size: 140%;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-left: 1%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#autor{
+    float: left;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#flaga{
+    background-color: #eff3f5;
+    max-height: 30px;
+    max-width: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px 26px 5px;
+}
+
+
+ #footer{
+    background-color: white;
+    width: 100%;
+    height: 170px;
+    float: left;
+    border-top: 10px solid #bdff00;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#logopg{
+    text-align: center;
+}
+
+#Graphsection{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:650px;
+}
+
+#Chart{
+    float: left;
+    width:80%;
+}
+
+#sidebar{
+    float: left;
+    width:19.5%;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    height: 470px;
+}
+
+#Pasek{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 100%;
+    height: 30px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 125%;
+}
+
+#tytul{
+    margin-left: 34%;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#całkowitaEnergia{
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+    text-align: right;
+    font-weight: 300;
+    font-size: 75%;
+}
+
+#logbar{
+    float: left;
+    width:19.5%;
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+    height: 55px;
+}
+
+
+input[type=login],
+input[type=password]{
+    height: 35px;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #eff3f5;
+}
+
+input[type=login]:focus,
+input[type=password]:focus{
+    -webkit-box-shadow: 0px 0px 13px -2px grey; 
+    box-shadow: 0px 0px 13px -2px grey;
+    border: 2px solid #a5cda5;
+    background-color: #e9f3e9;
+    color: #428c42;
+}
+
+
+#loginbutton{
+    height: 35px;
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    background-color:  #bdff00;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #363636;
+    cursor: pointer;
+}
+#loginbutton:hover{
+    background-color:  #c1e65c;
+    
+}
+#loginbutton:focus{
+    -webkit-box-shadow: 0px 0px 13px -2px grey; 
+    box-shadow: 0px 0px 13px -2px grey;
+    outline: none;
+}
+
+.date{
+    height: 38px;
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #eff3f5;
+    font-size: 100%;
+    position: relative;
+
+}
+
+::-webkit-datetime-edit { padding: 1em; text-align: center;}
+::-webkit-datetime-edit-text {padding: 0 0.3em;}
+.date::-webkit-inner-spin-button,
+.date::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+            position: absolute;
+            right: 0;
+            opacity: 0;
+            width: 100%;
+            cursor: pointer;
+            height: 38px;
+        }
+
+
+
+
+
+#choosedate,
+#logoutbutton{
+    height: 35px;
+    width: 60%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #eff3f5;
+    cursor: pointer;    
+}
+
+#quantity{
+    height: 35px;
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #eff3f5;
+    text-align: center;
+    text-align-last:center;
+    cursor: pointer;
+}
+
+#pdf{
+    min-height: 35px;
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #eff3f5;
+    cursor: pointer;
+}
+
+
+
+.date:focus,
+#choosedate:focus,
+#quantity:focus,
+#pdf:focus,
+#downloadbutton:focus,
+#myBtn:focus,
+#logoutbutton:focus,
+#flaga:focus,
+#logoutbutton:hover,
+.date:hover,
+#choosedate:hover,
+#quantity:hover,
+#pdf:hover,
+#downloadbutton:hover,
+#myBtn:hover,
+#flaga:hover{
+    -webkit-box-shadow: 0px 0px 13px -2px grey; 
+    box-shadow: 0px 0px 13px -2px grey;
+    outline: none;
+}
+
+
+
+#downloadcenter{
+    width: 100%;
+    min-height: 300px;
+    float: left;
+}
+
+#downloadCenterForm{
+    font-size: 100%;
+    width: 19.5%;
+    min-height: 300px;  
+    text-align: center;
+    align-items: center; 
+    float: left;
+    
+}
+
+#downloadbutton{
+    height: 35px;
+    width: 60%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #eff3f5;
+    cursor: pointer;
+}
+
+#checkboxes{
+    float: left;
+    width: 76%;
+    margin-top: 16px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#CP{
+    font-size: 110%;
+    font-weight: 900;
+}
+
+.label{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.label2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.checkbox{
+    appearance: none;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    background-color: #eff3f5;
+    border: 1px solid grey;
+    outline: none;
+}
+
+.checkbox:hover{
+    -webkit-box-shadow: 0px 0px 13px -2px grey; 
+    box-shadow: 0px 0px 13px -2px grey;
+    outline: none;
+}
+
+.checkbox:checked{
+    background-color: #bdff00;
+}
+
+.checkbox:checked:after{
+    content: '\2714';
+    font-size: 100%;
+    color: #363636;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: justify;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #myBtn{
+    height: 35px;
+    width: 60%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: 1px solid grey;
+    outline: none;
+    background-color: #eff3f5;
+    cursor: pointer;
+  }
