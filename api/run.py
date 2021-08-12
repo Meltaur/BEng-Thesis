@@ -10,12 +10,12 @@ from api.extentions import mongo
 config_object='api.settings'
 app.config.from_object(config_object)
 mongo.init_app(app) #Zainicjowanie komunikacji z bazą danych
-app.secret_key = 'K\\x1d\\xfff\\xcd\\x0fbp\\xe4][\\x92' #Sekretny klucz, którego deklaracja jest wymagana przy obsłudze zapytań HTTP
+app.secret_key = '###########' #Sekretny klucz, którego deklaracja jest wymagana przy obsłudze zapytań HTTP
 
 import api.login_manager, api.views, api.models
 
 from flask_jwt_extended import JWTManager
-app.config['JWT_SECRET_KEY'] = '4im:xC%&|haoW(c*3JJS/<2Q^LUSqU'
+app.config['JWT_SECRET_KEY'] = '###########'
 
 jwt = JWTManager(app) #zainicjowanie pracy menadżera tokenów logowania
 
